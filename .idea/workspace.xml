@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73770372-5fb9-4af7-8693-acd6b8605873" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Requests/AskQuestionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/layouts/_messages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/QNA-Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QNA-Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/QuestionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/QuestionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Question.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +32,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -128,6 +150,9 @@
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/blog/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/blog/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/blog/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/blog/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1z4ZT5frsprMCgSMX3nQpCj5VdY" />
@@ -139,10 +164,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -154,7 +181,20 @@
       <option name="presentableId" value="Default" />
       <updated>1633409324617</updated>
       <workItem from="1633409327747" duration="16365000" />
-      <workItem from="1633531718344" duration="9082000" />
+      <workItem from="1633531718344" duration="9204000" />
+      <workItem from="1633625750757" duration="4679000" />
+      <workItem from="1633874119779" duration="188000" />
+      <workItem from="1634235312729" duration="7748000" />
+      <workItem from="1634466724654" duration="561000" />
+      <workItem from="1634467318409" duration="10709000" />
+      <workItem from="1634536700460" duration="8626000" />
+      <workItem from="1634573833512" duration="918000" />
+      <workItem from="1634711224542" duration="2954000" />
+      <workItem from="1634797082376" duration="6857000" />
+      <workItem from="1634879784862" duration="805000" />
+      <workItem from="1634881463293" duration="3524000" />
+      <workItem from="1634885697257" duration="628000" />
+      <workItem from="1634890659250" duration="3169000" />
     </task>
     <servers />
   </component>
@@ -171,5 +211,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

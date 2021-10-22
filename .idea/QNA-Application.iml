@@ -107,6 +107,9 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/barryvdh/laravel-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/maximebf/debugbar" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
