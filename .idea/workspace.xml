@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73770372-5fb9-4af7-8693-acd6b8605873" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/app/Http/Requests/AskQuestionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/public/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/layouts/_messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/_form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Answer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/database/factories/AnswerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/database/migrations/2021_11_07_122338_rename_answers_in_questions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/database/migrations/2021_11_07_125733_create_answers_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/QNA-Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QNA-Application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/QuestionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/QuestionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Question.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/factories/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/QuestionFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +145,10 @@
       <path value="$PROJECT_DIR$/blog/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/blog/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/blog/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/dbal" />
     </include_path>
   </component>
   <component name="ProjectId" id="1z4ZT5frsprMCgSMX3nQpCj5VdY" />
@@ -194,7 +190,14 @@
       <workItem from="1634879784862" duration="805000" />
       <workItem from="1634881463293" duration="3524000" />
       <workItem from="1634885697257" duration="628000" />
-      <workItem from="1634890659250" duration="3169000" />
+      <workItem from="1634890659250" duration="3773000" />
+      <workItem from="1635147111587" duration="599000" />
+      <workItem from="1635182346229" duration="2993000" />
+      <workItem from="1635934778102" duration="551000" />
+      <workItem from="1636044828568" duration="1453000" />
+      <workItem from="1636118256171" duration="2717000" />
+      <workItem from="1636287107097" duration="13161000" />
+      <workItem from="1637514626369" duration="1950000" />
     </task>
     <servers />
   </component>

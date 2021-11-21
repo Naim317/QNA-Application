@@ -37,14 +37,32 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    /**
+     * @var mixed
+     */
+
+
     public function questions(){
         return $this->hasMany(Question::class);
 
     }
-  
+
     public function setPasswordAttribute($password)
     {
         $this->attributes['password'] = bcrypt($password);
+    }
+
+    public function answers(){
+        return $this->hasMany(Answer::class);
+    }
+
+    public function getAvatarAttribute(){
+        $email = $this->email;
+        $size = 30;
+
+        return  "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?s=" . $size ;
+
+
     }
 
 

@@ -110,6 +110,10 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/barryvdh/laravel-debugbar" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/debug" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/maximebf/debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/dbal" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
