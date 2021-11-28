@@ -2022,7 +2022,7 @@ pre code {
 }
 
 .table .thead-light th {
-  color: #495057;
+  color: #808080;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -2122,7 +2122,7 @@ pre code {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: #808080;
   background-color: #FFFFFF;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2143,11 +2143,11 @@ pre code {
 
 .form-control:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #495057;
+  text-shadow: 0 0 0 #808080;
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #808080;
   background-color: #FFFFFF;
   border-color: #a1cbef;
   outline: 0;
@@ -2185,7 +2185,7 @@ input[type=month].form-control {
 }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #808080;
   background-color: #FFFFFF;
 }
 
@@ -3874,7 +3874,7 @@ input[type=button].btn-block {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: #808080;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -4113,7 +4113,7 @@ input[type=button].btn-block {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: #808080;
   vertical-align: middle;
   background: #FFFFFF url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
   border: 1px solid #ced4da;
@@ -4130,7 +4130,7 @@ input[type=button].btn-block {
 }
 
 .custom-select:focus::-ms-value {
-  color: #495057;
+  color: #808080;
   background-color: #FFFFFF;
 }
 
@@ -4152,7 +4152,7 @@ input[type=button].btn-block {
 
 .custom-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #495057;
+  text-shadow: 0 0 0 #808080;
 }
 
 .custom-select-sm {
@@ -4218,7 +4218,7 @@ input[type=button].btn-block {
   overflow: hidden;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: #808080;
   background-color: #FFFFFF;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -4234,7 +4234,7 @@ input[type=button].btn-block {
   height: calc(1.6em + 0.75rem);
   padding: 0.375rem 0.75rem;
   line-height: 1.6;
-  color: #495057;
+  color: #808080;
   content: "Browse";
   background-color: #e9ecef;
   border-left: inherit;
@@ -4466,7 +4466,7 @@ input[type=button].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #808080;
   background-color: #f8fafc;
   border-color: #dee2e6 #dee2e6 #f8fafc;
 }
@@ -5755,14 +5755,14 @@ a.badge-dark.focus {
 
 .list-group-item-action {
   width: 100%;
-  color: #495057;
+  color: #808080;
   text-align: inherit;
 }
 
 .list-group-item-action:hover,
 .list-group-item-action:focus {
   z-index: 1;
-  color: #495057;
+  color: #808080;
   text-decoration: none;
   background-color: #f8f9fa;
 }
@@ -10982,5 +10982,48 @@ a.text-dark:focus {
 
 form.form-delete {
   display: inline;
+}
+
+.vote-controls {
+  min-width: 60px;
+  margin-right: 30px;
+  text-align: center;
+  color: #808080;
+}
+
+.vote-controls span,
+.vote-controls a {
+  display: block;
+}
+
+.vote-controls span.votes-count {
+  font-size: 25px;
+}
+
+.vote-controls span.favorites-count {
+  font-size: 12px;
+}
+
+.vote-controls a {
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.vote-controls a.off,
+.vote-controls a.off:hover {
+  color: #adb5bd;
+}
+
+.vote-controls a.favorite.favorited,
+.vote-controls a.favorite.favorited:hover {
+  color: #38c172;
+}
+
+.vote-controls a.vote-accepted {
+  color: #38c172;
+}
+
+.lemonbolche {
+  width: 100% !important;
 }
 

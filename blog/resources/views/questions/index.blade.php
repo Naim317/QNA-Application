@@ -50,7 +50,8 @@
                                                 @csrf
                                                 <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Are you sure')">Delete</button>
                                             </form>
-                                                    @endif
+                                                @endif
+
 
                                         </div>
 

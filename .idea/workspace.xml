@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73770372-5fb9-4af7-8693-acd6b8605873" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/app/Answer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/database/factories/AnswerFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/database/migrations/2021_11_07_122338_rename_answers_in_questions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/database/migrations/2021_11_07_125733_create_answers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QNA-Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QNA-Application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/AnswersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/public/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/answers/_index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/answers/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/database/factories/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/QuestionFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Answer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +197,9 @@
       <workItem from="1636118256171" duration="2717000" />
       <workItem from="1636287107097" duration="13161000" />
       <workItem from="1637514626369" duration="1950000" />
+      <workItem from="1637566503944" duration="6833000" />
+      <workItem from="1637955872915" duration="436000" />
+      <workItem from="1638087199002" duration="7359000" />
     </task>
     <servers />
   </component>
