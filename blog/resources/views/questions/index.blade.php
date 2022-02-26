@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'QNA Application')
 @section('content')
     <div class="">
         <div class="row justify-content-center">

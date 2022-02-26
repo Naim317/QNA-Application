@@ -42,6 +42,7 @@ class QuestionsController extends Controller
      */
     public function store(AskQuestionRequest $request)
     {
+        date_default_timezone_set("Asia/Dhaka");
         $request->user()->questions()->create($request->only('title','body'));
         return redirect()->route('questions.index')->with('success', 'Your question has been submitted');
     }

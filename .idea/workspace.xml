@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73770372-5fb9-4af7-8693-acd6b8605873" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/AnswersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/public/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/answers/_index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/resources/views/answers/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/resources/views/answers/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Answer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/questions/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Http/Controllers/AnswersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Http/Controllers/AnswersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/resources/views/answers/_index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +192,21 @@
       <workItem from="1637566503944" duration="6833000" />
       <workItem from="1637955872915" duration="436000" />
       <workItem from="1638087199002" duration="7359000" />
+      <workItem from="1641266176487" duration="26000" />
+      <workItem from="1642089176926" duration="1230000" />
+      <workItem from="1642346187411" duration="6708000" />
+      <workItem from="1642399932768" duration="2739000" />
+      <workItem from="1642510888258" duration="56000" />
+      <workItem from="1642598608431" duration="59000" />
+      <workItem from="1642598970194" duration="136000" />
+      <workItem from="1642863310926" duration="581000" />
+      <workItem from="1642928104280" duration="138000" />
+      <workItem from="1644064972728" duration="1232000" />
+      <workItem from="1644073968571" duration="5936000" />
+      <workItem from="1644251524411" duration="877000" />
+      <workItem from="1644769705487" duration="565000" />
+      <workItem from="1644778837653" duration="669000" />
+      <workItem from="1644844187606" duration="22000" />
     </task>
     <servers />
   </component>
